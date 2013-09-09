@@ -3,7 +3,7 @@ DistributedCB
 
 A Parallel and Distributed Content-Based Recommender System
 
-This is the Python implementation of the parallel and distributed content-based recommender system that was accepted for publication in the Journal of Intelligent Information Systems (JIIS) in 2013. The code provided here may serve as a reference for others interested in parallel and distributed recommender systems. Please cite the corresponding paper if you make use of this work.
+This is the Python implementation of the parallel and distributed content-based recommender system that was accepted for publication in the Journal of Intelligent Information Systems (JIIS) in 2013. The code provided here may serve as a reference for others interested in parallel and distributed recommender systems. Please cite the [corresponding paper](http://link.springer.com/article/10.1007%2Fs10844-013-0276-1) if you make use of this work.
 
     @article{dooms2013distributedcb,
       year={2013},
