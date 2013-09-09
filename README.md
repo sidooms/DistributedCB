@@ -6,12 +6,17 @@ A Parallel and Distributed Content-Based Recommender System
 This is the Python implementation of the parallel and distributed content-based recommender system that was accepted for publication in the Journal of Intelligent Information Systems (JIIS) in 2013. The code provided here may serve as a reference for others interested in parallel and distributed recommender systems. Please cite the corresponding paper if you make use of this work.
 
     @article{dooms2013distributedcb,
-      title={In-Memory, Distributed Content-Based Recommender System},
-      author={Dooms, Simon and Audenaert, Pieter and Fostier, Jan and De Pessemier, Toon and Martens, Luc},
+      year={2013},
+      issn={0925-9902},
       journal={Journal of Intelligent Information Systems},
       doi={10.1007/s10844-013-0276-1},
-      year={2013},
-      publisher={Springer}
+      title={In-memory, distributed content-based recommender system},
+      url={http://dx.doi.org/10.1007/s10844-013-0276-1},
+      publisher={Springer US},
+      keywords={Recommender system; Distributed; Parallel; Speedup},
+      author={Dooms, Simon and Audenaert, Pieter and Fostier, Jan and De Pessemier, Toon and Martens, Luc},
+      pages={1-25},
+      language={English}
     }
 
 First, the work_division.py file should be used to pre-process the input data so that jobs can be distributed in a load balanced way (see the paper for more details). Next, the distributed_CB_recommender.py Python file can be used to calculate the actual recommendations. By changing the input parameters, the number of computing nodes (and cores per node) can be set. 
